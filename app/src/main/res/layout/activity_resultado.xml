@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logradouro:"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bairro:"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cidade:"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado:"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar no Histórico"/>
+</LinearLayout>

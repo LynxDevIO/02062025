@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o CEP"
+        android:inputType="number"
+        android:maxLength="8"/>
+
+    <Button
+        android:id="@+id/buttonBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonHistorico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Histórico"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
